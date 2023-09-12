@@ -122,7 +122,7 @@ export function App() {
 
             <div className="space-y-4">
               <Label>Temperatura</Label>
-              <Slider min={0} max={1} step={0.1} />
+              <Slider min={0} max={1} step={0.1} defaultValue={[0.5]}/>
               <span className="block text-xs text-muted-foreground italic leading-relaxed">
                 Valores mais altos tendem a deixar o resultado mais criativo e
                 com possíveis erros.
