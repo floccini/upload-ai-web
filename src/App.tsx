@@ -36,7 +36,7 @@ export function App() {
           <div className="grid grip-rows-2 gap-4 flex-1">
             <Textarea
               className="resize-none p-4 leading-relaxed"
-              placeholder="Inclua o promp para a IA..."
+              placeholder="Inclua o prompt para a IA..."
             />
             <Textarea
               className="resize-none p-4 leading-relaxed"
@@ -89,7 +89,7 @@ export function App() {
 
           <form className="space-y-6">
             <div className="space-y-2">
-              <Label>Promp</Label>
+              <Label>Prompt</Label>
               <Select>
                 <SelectTrigger>
                   <SelectValue placeholder="Selecione um prompt" />
